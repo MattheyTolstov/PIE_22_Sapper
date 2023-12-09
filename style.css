@@ -1,0 +1,52 @@
+﻿body {
+	background-color: #d4d4d4;
+}
+
+section {
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+}
+
+#data_stats {
+	padding: 10px 600px;
+	height: 10vh;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#smile {
+	height: 100%;
+}
+
+#display_count_mines {
+	height: 100%;
+	font-family: 'Andale Mono', monospace;
+	font-size: 100px;
+	color: red;
+}
+
+.button {
+	height: 100%;
+	margin: 0em 1em;
+	padding: 1em 1.5em;
+	border: none;
+	border-radius: 1.5em;
+	background-color: rgb(60, 95, 248);
+	color: white;
+}
+
+.button:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	background-color: rgb(20, 20, 223);
+}
+
+canvas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#data_stats {
+	display: none;
+}
